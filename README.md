@@ -34,7 +34,8 @@ The application allows users to interact with a chatbot where the sentiment of t
 - Python 3.7+
 - FastAPI
 - Uvicorn
-- SQLAlchemy (or other database libraries)
+- psycopg2-binary
+
 
 ### Installation
 
