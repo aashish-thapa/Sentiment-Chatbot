@@ -9,7 +9,7 @@ userPw = os.getenv('dbpw')
 # Database connection setup
 def get_db_connection():
     conn = psycopg2.connect(
-        dbname="chatbot", user=userId, password=userPw, host="localhost"
+        dbname="chatbot", user="iamaashishthapa", password="aashish@2059", host="localhost"
     )
     return conn
 
