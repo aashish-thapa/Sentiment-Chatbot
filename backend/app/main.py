@@ -4,9 +4,12 @@ from app.models import analyze_sentiment  # Assuming this analyzes sentiment
 from app.services import save_to_db  # Assuming this saves data to the database
 from fastapi.middleware.cors import CORSMiddleware
 import google.generativeai as genai
-
+from dotenv import load_dotenv
+import os
+load_dotenv()
+genai_api_key = os.getenv("GOOGLE_API_KEY")
 # Configure GenerativeAI with your API key (replace with your actual key)
-genai.configure(api_key="AIzaSyDBT99oF5kSSCgO8HGdOUGJZ_RecFG0U1Y")
+genai.configure(api_key= genai_api_key)
 
 # Initialize FastAPI app
 app = FastAPI()
