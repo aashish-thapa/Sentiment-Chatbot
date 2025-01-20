@@ -58,7 +58,7 @@ async def chatbot_response(data: MessageData):
         model = genai.GenerativeModel("gemini-1.5-flash")
 
         # Generate chatbot response using Gemini AI
-        response = model.generate_content(data.message)
+        response = model.generate_content(data.message + " (Generate genz like response)")
         
         # Validate response from Gemini AI
         if not response or not hasattr(response, "text"):
