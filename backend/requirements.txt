@@ -10,6 +10,7 @@ Flask==3.1.0
 Flask-Cors==5.0.0
 fsspec==2024.12.0
 h11==0.14.0
+httptools==0.6.4
 huggingface-hub==0.27.0
 idna==3.10
 itsdangerous==2.2.0
@@ -53,4 +54,7 @@ triton==3.1.0
 typing_extensions==4.12.2
 urllib3==2.3.0
 uvicorn==0.34.0
+uvloop==0.21.0
+watchfiles==1.0.4
+websockets==14.2
 Werkzeug==3.1.3
