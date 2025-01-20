@@ -9,6 +9,7 @@ Below are the picture of the demo(The product is not ready yet):
 
 ![image](https://github.com/user-attachments/assets/7323b58d-c22f-4e64-8a72-72f608d335b6)
 
+![image](https://github.com/user-attachments/assets/cdc7eaf6-7c88-4cc6-97e9-3267cb6f3cab)
 
 ## Table of Contents
 
