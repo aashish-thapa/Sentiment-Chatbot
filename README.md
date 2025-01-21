@@ -3,7 +3,7 @@
 # Sentiment Analysis Chatbot
 
 This project features a sentiment analysis chatbot that processes user messages and returns the sentiment of the message along with a simulated chatbot response. The application uses FastAPI for the backend and React.js for the frontend.
-Below are the picture of the demo(The product is not ready yet as I am having some problem deploying backend and database):
+Below are the picture of the demo(The product is not ready yet as I am having some problem deploying backend and database but surely you can clone and run it in the local device):
 
 ![image](https://github.com/user-attachments/assets/82a895a2-0419-4ab1-a30b-c1b66777f792)
 
